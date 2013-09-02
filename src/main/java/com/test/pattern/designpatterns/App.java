@@ -28,9 +28,6 @@ public class App
         //create the Proxy and wrap the target
         Calculator calcProxy2 = new CalculatorProxyInheritedStyle(calculator, true);
         calcProxy2.displayResponse();
-        System.out.println(calcProxy2.toString());
-     
-        
 
     }
 }
