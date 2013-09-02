@@ -2,10 +2,7 @@ package com.test.pattern.designpatterns;
 
 import java.lang.reflect.Proxy;
 
-import net.sf.cglib.proxy.Callback;
 import net.sf.cglib.proxy.Enhancer;
-import net.sf.cglib.proxy.MethodInterceptor;
-
 import com.test.pattern.interfaces.Operation;
 import com.test.pattern.models.Calculator;
 import com.test.pattern.proxies.CalculatorInvocationHandler;
